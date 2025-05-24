@@ -1,0 +1,12 @@
+.footer-container {
+  margin-top: 30px;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+}
+.footer-container p {
+  color: #5b5b5b;
+  margin: auto 0;
+  cursor: pointer;
+}

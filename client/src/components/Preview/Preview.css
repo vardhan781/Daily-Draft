@@ -1,0 +1,48 @@
+.preview-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+.preview-box {
+  background: #f7f3f3;
+  padding: 2rem;
+  border-radius: 10px 10px 0 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.preview-box p {
+  color: #252525;
+  font-size: 20px;
+}
+.preview-ask {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.pre-cancel {
+  background-color: #e0e0e0;
+  color: #333;
+  border: none;
+  font-size: 16px;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.pre-confirm {
+  background-color: #ff4d4f;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+}

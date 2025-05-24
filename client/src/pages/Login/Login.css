@@ -1,0 +1,83 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f7f3f3;
+  width: 370px;
+  margin: 40px auto;
+  border-radius: 16px 16px 0 0;
+  padding: 18px 25px;
+  gap: 20px;
+  border: 1px solid #a4a4a4;
+}
+.login-container p {
+  color: #252525;
+  font-size: 28px;
+}
+.selected-login-pic {
+  width: 150px;
+  height: 150px;
+}
+.selected-login-pic img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.remove-login-pic {
+  border: none;
+  outline: none;
+  color: #252525;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.login-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 14px;
+}
+.login-container input {
+  width: 100%;
+  padding: 4px 10px;
+  height: 34px;
+  outline: none;
+  border: 1px solid #282828;
+  background: #f5f5dc;
+}
+.login-profile-upload {
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+}
+.login-submit {
+  padding: 4px 44px;
+  border-radius: 6px;
+  background: #8b3a3a;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  cursor: pointer;
+}
+.login-state-ask {
+  display: flex;
+  gap: 5px;
+}
+.login-state-ask p {
+  font-size: 15px;
+}
+.login-state-ask span {
+  color: #4000ff;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+@media (min-width: 320px) and (max-width: 400px) {
+  .login-container {
+    width: 90%;
+    padding: 10px 12px;
+  }
+}
